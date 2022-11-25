@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_select_logo">
+
+    <fragment
+        android:id="@+id/navigation_select_logo"
+        android:name="com.burhanrashid52.photoediting.functionality.ui.select_logo.SelectLogoFragment"
+        android:label="@string/select_logo"
+        tools:layout="@layout/select_logo_fragment" />
+
+    <fragment
+        android:id="@+id/navigation_add_background"
+        android:name="com.burhanrashid52.photoediting.functionality.ui.add_background.AddBackgroundFragment"
+        android:label="@string/add_background"
+        tools:layout="@layout/fragment_add_background" />
+
+    <fragment
+        android:id="@+id/navigation_add_style_text"
+        android:name="com.burhanrashid52.photoediting.functionality.ui.add_style_text.AddStyleTextFragment"
+        android:label="@string/add_style_text_logo"
+        tools:layout="@layout/fragment_add_style_text" />
+    <fragment
+        android:id="@+id/navigation_save_logo"
+        android:name="com.burhanrashid52.photoediting.functionality.ui.save_logo.SaveLogoFragment"
+        android:label="@string/save_logo"
+        tools:layout="@layout/save_logo_fragment" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic__home_icon"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_compaigns"
+        android:icon="@drawable/ic_compaigns_icon"
+        android:title="@string/title_my_compaigns" />
+
+    <item
+        android:id="@+id/navigation_my_run_digital_compaign"
+        android:icon="@drawable/ic_designs_icon"
+        android:title="@string/title_designs" />
+
+    <item
+        android:id="@+id/navigation_go_pro"
+        android:icon="@drawable/ic_go_pro_icon"
+        android:title="@string/title_go_pro" />
+
+</menu>

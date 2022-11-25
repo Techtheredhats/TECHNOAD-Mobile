@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.burhanrashid52.photoediting.functionality.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_compaigns"
+        android:name="com.burhanrashid52.photoediting.functionality.ui.compaigns.CompaignsFragment"
+        android:label="@string/title_my_compaigns"
+        tools:layout="@layout/fragment_compaign" />
+
+    <fragment
+        android:id="@+id/navigation_designs"
+        android:name="com.burhanrashid52.photoediting.functionality.ui.designs.DesignsFragment"
+        android:label="@string/title_designs"
+        tools:layout="@layout/fragment_design" />
+
+    <fragment
+        android:id="@+id/navigation_go_pro"
+        android:name="com.burhanrashid52.photoediting.functionality.ui.go_pro.GoProFragment"
+        android:label="@string/title_go_pro"
+        tools:layout="@layout/go_fragment" />
+</navigation>
